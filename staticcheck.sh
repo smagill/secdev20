@@ -20,7 +20,7 @@ function getTool() {
   curl -LO https://github.com/dominikh/go-tools/releases/download/2020.1.5/staticcheck_linux_amd64.tar.gz >/dev/null
   tar xzf staticcheck_linux_amd64.tar.gz >/dev/null
   popd >/dev/null
-}
+} 
 
 function emit_results() {
   echo "$1" | \
